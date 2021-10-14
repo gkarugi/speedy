@@ -1,11 +1,11 @@
-import mutagen
-import boto3
+import math
+import os
 import pprint
 from csv import writer
-import math
-from os.path import join,dirname
-import os
+from os.path import dirname, join
 
+import boto3
+import mutagen
 from dotenv import load_dotenv
 
 dotenv_path = join(dirname(__file__), '.env')
